@@ -32,8 +32,10 @@ functions to add:
 - add sounds for indication purposes (optional)
 - add tray icon for quicker usage
 - add hotkeys for flawless usage (optional & bindable)
-- add replay.rep support (one replay for the whole page & one for each individual save) ||
+- add replay.rep support (one replay for the whole page & one for each individual save)
 - change savefile name (as data of it) according to the one in the config (optional)
+- expand amount of saves up to 20 (optional)
+- consider saves being numbered not just 1 2 3 4 but also 01 02 03 04 and 001 002 003 004 (Max Payne 2)
 
 known bugs & things that need changing:
 - " - .cfg" config name when empty in settings
