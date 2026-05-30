@@ -34,8 +34,10 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.linkTwitch = new System.Windows.Forms.LinkLabel();
             this.linkGithub = new System.Windows.Forms.LinkLabel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.linkYouTube = new System.Windows.Forms.LinkLabel();
+            this.linkDA = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,7 +47,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(359, 69);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Saveyard v1.0\r\n\r\nim sorry i havent learnt git yet and honestly cba so you\'ll have" +
+            this.label1.Text = "Saveyard v1.1\r\n\r\nim sorry i havent learnt git yet and honestly cba so you\'ll have" +
     " to check for updates either manually on github page or i\'ll inform people over " +
     "at #gta discord whwnever needed";
             // 
@@ -66,13 +68,12 @@
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(360, 96);
             this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "❓ Новый вопрос!\n\n👤 Аноним:\nКороче не получил ты мой подарок на рождество я пон. " +
-    "Или че молчим то?))) 🥸 Я не пон.";
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
             // linkTwitch
             // 
             this.linkTwitch.AutoSize = true;
-            this.linkTwitch.Location = new System.Drawing.Point(371, 108);
+            this.linkTwitch.Location = new System.Drawing.Point(316, 108);
             this.linkTwitch.Name = "linkTwitch";
             this.linkTwitch.Size = new System.Drawing.Size(39, 13);
             this.linkTwitch.TabIndex = 3;
@@ -83,13 +84,44 @@
             // linkGithub
             // 
             this.linkGithub.AutoSize = true;
-            this.linkGithub.Location = new System.Drawing.Point(416, 108);
+            this.linkGithub.Location = new System.Drawing.Point(418, 108);
             this.linkGithub.Name = "linkGithub";
             this.linkGithub.Size = new System.Drawing.Size(40, 13);
             this.linkGithub.TabIndex = 4;
             this.linkGithub.TabStop = true;
             this.linkGithub.Text = "GitHub";
             this.linkGithub.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkGithub_LinkClicked);
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(238, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(356, 21);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "vibecoded by lesenqa";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // linkYouTube
+            // 
+            this.linkYouTube.AutoSize = true;
+            this.linkYouTube.Location = new System.Drawing.Point(361, 108);
+            this.linkYouTube.Name = "linkYouTube";
+            this.linkYouTube.Size = new System.Drawing.Size(51, 13);
+            this.linkYouTube.TabIndex = 7;
+            this.linkYouTube.TabStop = true;
+            this.linkYouTube.Text = "YouTube";
+            this.linkYouTube.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkYouTube_LinkClicked);
+            // 
+            // linkDA
+            // 
+            this.linkDA.AutoSize = true;
+            this.linkDA.Location = new System.Drawing.Point(464, 108);
+            this.linkDA.Name = "linkDA";
+            this.linkDA.Size = new System.Drawing.Size(42, 13);
+            this.linkDA.TabIndex = 8;
+            this.linkDA.TabStop = true;
+            this.linkDA.Text = "Donate";
+            this.linkDA.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkDA_LinkClicked);
             // 
             // pictureBox1
             // 
@@ -102,20 +134,13 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(238, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(356, 21);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "vibecoded by lesenqa";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // FormInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(613, 273);
+            this.Controls.Add(this.linkDA);
+            this.Controls.Add(this.linkYouTube);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.linkGithub);
@@ -145,5 +170,7 @@
         private System.Windows.Forms.LinkLabel linkGithub;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.LinkLabel linkYouTube;
+        private System.Windows.Forms.LinkLabel linkDA;
     }
 }

@@ -8,12 +8,20 @@ namespace Saveyard
         public int Slot { get; set; }
         public string Name { get; set; } = "";
         public string FilePath { get; set; } = "";
+
+        // --- Индивидуальные повторы для слота ---
+        public string ReplayName { get; set; } = "";
+        public string OriginalReplayPath { get; set; } = "";
     }
 
     public class ConfigPage
     {
         // Просто инициализируем пустой список
         public List<SaveEntry> Saves { get; set; } = new List<SaveEntry>();
+
+        // --- Общий повтор для всей страницы ---
+        public string PageReplayName { get; set; } = "";
+        public string OriginalPageReplayPath { get; set; } = "";
     }
 
     public class SaveConfig

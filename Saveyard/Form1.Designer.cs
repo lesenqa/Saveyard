@@ -56,12 +56,12 @@
             this.pnlSaves.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.pnlSaves.Location = new System.Drawing.Point(12, 27);
             this.pnlSaves.Name = "pnlSaves";
-            this.pnlSaves.Size = new System.Drawing.Size(436, 328);
+            this.pnlSaves.Size = new System.Drawing.Size(436, 640);
             this.pnlSaves.TabIndex = 2;
             // 
             // btnPrevPage
             // 
-            this.btnPrevPage.Location = new System.Drawing.Point(12, 374);
+            this.btnPrevPage.Location = new System.Drawing.Point(9, 701);
             this.btnPrevPage.Name = "btnPrevPage";
             this.btnPrevPage.Size = new System.Drawing.Size(52, 23);
             this.btnPrevPage.TabIndex = 3;
@@ -71,7 +71,7 @@
             // 
             // lblPageInfo
             // 
-            this.lblPageInfo.Location = new System.Drawing.Point(67, 374);
+            this.lblPageInfo.Location = new System.Drawing.Point(64, 701);
             this.lblPageInfo.Name = "lblPageInfo";
             this.lblPageInfo.Size = new System.Drawing.Size(49, 49);
             this.lblPageInfo.TabIndex = 4;
@@ -80,7 +80,7 @@
             // 
             // btnNextPage
             // 
-            this.btnNextPage.Location = new System.Drawing.Point(118, 374);
+            this.btnNextPage.Location = new System.Drawing.Point(115, 701);
             this.btnNextPage.Name = "btnNextPage";
             this.btnNextPage.Size = new System.Drawing.Size(52, 23);
             this.btnNextPage.TabIndex = 5;
@@ -90,7 +90,7 @@
             // 
             // btnAddPage
             // 
-            this.btnAddPage.Location = new System.Drawing.Point(118, 403);
+            this.btnAddPage.Location = new System.Drawing.Point(115, 730);
             this.btnAddPage.Name = "btnAddPage";
             this.btnAddPage.Size = new System.Drawing.Size(52, 23);
             this.btnAddPage.TabIndex = 6;
@@ -100,7 +100,7 @@
             // 
             // btnDeletePage
             // 
-            this.btnDeletePage.Location = new System.Drawing.Point(12, 400);
+            this.btnDeletePage.Location = new System.Drawing.Point(9, 727);
             this.btnDeletePage.Name = "btnDeletePage";
             this.btnDeletePage.Size = new System.Drawing.Size(52, 23);
             this.btnDeletePage.TabIndex = 7;
@@ -110,7 +110,7 @@
             // 
             // btnSaveCurrent
             // 
-            this.btnSaveCurrent.Location = new System.Drawing.Point(292, 403);
+            this.btnSaveCurrent.Location = new System.Drawing.Point(289, 730);
             this.btnSaveCurrent.Name = "btnSaveCurrent";
             this.btnSaveCurrent.Size = new System.Drawing.Size(156, 23);
             this.btnSaveCurrent.TabIndex = 8;
@@ -120,7 +120,7 @@
             // 
             // btnLoadAll
             // 
-            this.btnLoadAll.Location = new System.Drawing.Point(373, 374);
+            this.btnLoadAll.Location = new System.Drawing.Point(370, 701);
             this.btnLoadAll.Name = "btnLoadAll";
             this.btnLoadAll.Size = new System.Drawing.Size(75, 23);
             this.btnLoadAll.TabIndex = 9;
@@ -130,18 +130,18 @@
             // 
             // btnClearFolder
             // 
-            this.btnClearFolder.Location = new System.Drawing.Point(292, 374);
+            this.btnClearFolder.Location = new System.Drawing.Point(289, 701);
             this.btnClearFolder.Name = "btnClearFolder";
             this.btnClearFolder.Size = new System.Drawing.Size(75, 23);
             this.btnClearFolder.TabIndex = 10;
-            this.btnClearFolder.Text = "Clear folder";
+            this.btnClearFolder.Text = "Clear saves";
             this.btnClearFolder.UseVisualStyleBackColor = true;
             this.btnClearFolder.Click += new System.EventHandler(this.btnClearFolder_Click);
             // 
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(12, 352);
+            this.lblStatus.Location = new System.Drawing.Point(9, 679);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(41, 13);
             this.lblStatus.TabIndex = 12;
@@ -172,21 +172,21 @@
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.MouseEnter += new System.EventHandler(this.openToolStripMenuItem_MouseEnter);
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.closeToolStripMenuItem.Text = "New";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
@@ -206,7 +206,7 @@
             // 
             // btnOpenUserFiles
             // 
-            this.btnOpenUserFiles.Location = new System.Drawing.Point(186, 374);
+            this.btnOpenUserFiles.Location = new System.Drawing.Point(183, 701);
             this.btnOpenUserFiles.Name = "btnOpenUserFiles";
             this.btnOpenUserFiles.Size = new System.Drawing.Size(100, 23);
             this.btnOpenUserFiles.TabIndex = 14;
@@ -216,7 +216,7 @@
             // 
             // btnOpenProgramFolder
             // 
-            this.btnOpenProgramFolder.Location = new System.Drawing.Point(186, 403);
+            this.btnOpenProgramFolder.Location = new System.Drawing.Point(183, 730);
             this.btnOpenProgramFolder.Name = "btnOpenProgramFolder";
             this.btnOpenProgramFolder.Size = new System.Drawing.Size(100, 23);
             this.btnOpenProgramFolder.TabIndex = 15;
@@ -228,7 +228,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(457, 435);
+            this.ClientSize = new System.Drawing.Size(457, 765);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.btnOpenProgramFolder);
             this.Controls.Add(this.btnOpenUserFiles);

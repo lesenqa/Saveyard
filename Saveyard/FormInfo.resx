@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Все мы знаем, какое мнение распространено в нашем обществе: что куни – это унизительно. Однако в глазах женщины мужчина, который старается делать куни, ценит роль этой сексуальной практики, с трепетом относиться к женщине и не имеет никаких барьеров, вызывает намного больше уважения, ведь он ставит удовольствие женщины наравне со своим.</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

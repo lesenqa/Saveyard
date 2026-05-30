@@ -33,6 +33,17 @@ namespace Saveyard
             OpenUrl("https://github.com/lesenqa");
         }
 
+        private void linkYouTube_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenUrl("https://www.youtube.com/@lesenqa");
+        }
+
+        private void linkDA_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenUrl("https://www.donationalerts.com/r/lesenqa");
+        }
+
+
         // Универсальный метод для открытия браузера
         private void OpenUrl(string url)
         {
@@ -52,7 +63,9 @@ namespace Saveyard
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            OpenUrl("https://youtu.be/nicCb3TTWAE");
+            OpenUrl("https://youtu.be/_coe9SR1hzE&t=10");
         }
+
+
     }
 }
