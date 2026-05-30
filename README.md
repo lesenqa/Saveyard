@@ -44,19 +44,20 @@ _Whatever comes after the number. This field can be empty, as for example Bully:
 8. Button `User Files` opens the directory for your savefiles, `Program folder` opens the folder of where program is stored if you need to take a look at saves you've backed up or configs you have/want to delete
 
 # Functions to add:
-- Expand amount of saves up to 20 (optional)
-- Consider saves being numbered not just `1` `2` `3` `4` but also `01` `02` `03` `04` and `000` `001` `002` `003` (Max Payne 2)
-- Consider saves being numbered from `0` and not `1`
-- `Clear` button for each save
-- Add replay.rep support (one replay for the whole page & for each save)
-- Names for each page
-- Add sounds for indication purposes (optional)
-- Add tray icon for quicker usage
-- Add hotkeys for flawless usage (optional & bindable)
-- Change savefile name (as data of it) according to the one in the config (optional)
+[] Expand amount of saves up to 20 (optional)
+[] Consider saves being numbered not just `1` `2` `3` `4` but also `01` `02` `03` `04` and `000` `001` `002` `003` (Max Payne 2)
+[] Consider saves being numbered from `0` and not `1`
+[] `Clear` button for each save
+[X] Add replay.rep support (one replay for the whole page & for each save)
+[] Names for each page
+[] Add sounds for indication purposes (optional)
+[] Add tray icon for quicker usage
+[] Add hotkeys for flawless usage (optional & bindable)
+[] Change savefile name (as data of it) according to the one in the config (optional)
+[] Force game onto loading the savefile after using a hotkey (is it worth it/even possible?)
 
 # Known bugs & things that need changing:
-- ` - .cfg` config name when empty in settings
-- `Game - .cfg` if no category written
-- When opening config open on the page it was saved at
-- For new config either fill with just American dad info, or no info at all when creating
+[] ` - .cfg` config name when empty in settings
+[] `Game - .cfg` if no category written
+[] When opening config open on the page it was saved at
+[] For new config either fill with just American dad info, or no info at all when creating
